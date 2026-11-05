@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-gujarati: 'Noto Sans Gujarati', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --color-kesari-500: #f97316;
+  --color-kesari-600: #ea580c;
+  --color-kesari-700: #c2410c;
+}
+
+body {
+  font-family: var(--font-gujarati);
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.4);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.6);
+}

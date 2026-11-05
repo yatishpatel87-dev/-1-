@@ -1,0 +1,6 @@
+{
+  "name": "વાર્તા AI – શુદ્ધ ગુજરાતી AI ચેટબોટ",
+  "description": "શુદ્ધ, સરળ અને વ્યાકરણશુદ્ધ ગુજરાતી ભાષામાં પ્રશ્નોત્તરી અને વાતચીત કરતો આધુનિક AI ચેટબોટ. અવાજ ઓળખવાની અને ગુજરાતી બોલી સંભળાવવાની સુવિધા સાથે.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
